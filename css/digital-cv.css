@@ -5,7 +5,7 @@
 }
 
 body {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 p {
   margin-bottom: 0;
@@ -19,7 +19,7 @@ p {
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   padding-top: 16px;
   border-bottom: 1px solid #bfbfbf;
   padding-bottom: 8px;
@@ -33,14 +33,14 @@ h3 {
 /* ---------team------------ */
 .boder_circle {
   background-color: #6f42c1;
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   border-radius: 50%;
   border: 2px solid #70380f;
-  font-size: 1.4rem;
-  text-align: center;
-  line-height: 44.5px;
+  font-size: 1.3rem;
+  line-height: 40px;
   color: #fff;
+  text-align: center;
 }
 /* ----------------css goals-------------- */
 
@@ -53,9 +53,6 @@ h3 {
   border-bottom: 1px dashed #00bfff;
 }
 
-i {
-  font-size: 22px;
-}
 /* ----------------laptop--------------- */
 @media (min-width: 1200px) {
   .section-container {
