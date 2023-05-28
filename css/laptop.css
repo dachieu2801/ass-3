@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif, serif;
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+/*---------------------css nav-bar----------------- */
+
+p {
+  margin-bottom: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.section-nav {
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.img-avatar {
+  border-radius: 50%;
+  border: 8px solid #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-bar-center > span {
+  color: #b8b8b8;
+}
+
+.nav-icon {
+  color: #1e90ff;
+}
+
+/* css thẻ h2 */
+
+.section-title {
+  font-size: 22px;
+  font-weight: normal;
+  padding-bottom: 36px;
+}
+
+/*-----------------------------css about -------------------*/
+
+#about {
+  background: #f7f7f7;
+}
+
+/* ---------css target trong about ---------*/
+
+#target > p {
+  color: #888888;
+}
+
+/*---------- css personal-info trong about -------------*/
+
+#personal-info {
+  background: #f2f2f2;
+}
+
+ul {
+  padding: 0;
+}
+
+#personal-info > ul > li {
+  color: #888888;
+  list-style: none;
+  padding-bottom: 4px;
+}
+
+#personal-info span {
+  color: #000;
+}
+
+.target-icon {
+  margin-top: 30px;
+  color: #1e90ff;
+}
+
+.target-icon i {
+  margin-right: 6px;
+}
+
+/* --------------------css job-info -------------------- */
+
+#job-info {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.section-job {
+  border: 1px solid #e8e8e8;
+  padding: 50px 40px 30px 30px;
+}
+
+.section-job-title {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  margin-bottom: 16px;
+}
+
+.job-info .section-title {
+  position: relative;
+  top: 16px;
+}
+
+.section-job-title > i {
+  color: #888888;
+  font-size: 38px;
+}
+
+/* css ul,li trong job-info */
+
+.company {
+  margin-bottom: 24px;
+}
+
+.job-info li {
+  list-style: none;
+  color: #888888;
+  line-height: 1.6;
+  padding-left: 28px;
+}
+
+.job-info li:first-child {
+  color: #000;
+  position: relative;
+}
+
+.job-info li:first-child::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 4px solid #1e90ff;
+  top: 5px;
+  left: -2px;
+  border-radius: 50%;
+}
+
+.job-info li:nth-child(2) {
+  font-style: italic;
+  padding-bottom: 8px;
+}
+
+.job-info li:nth-child(2) span {
+  color: #fff;
+  background: #1e90ff;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+/* css sở thích */
+
+.section-habby {
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.section-habby > i {
+  font-size: 18px;
+  width: 44px;
+  height: 44px;
+  border: 2px solid #1e90ff;
+  border-radius: 50%;
+  line-height: 44px;
+  color: #1e90ff;
+  margin-bottom: 16px;
+}
+
+.section-habby > p {
+  color: #888888;
+}
+
+/* css ngôn ngữ va kỹ năng*/
+
+.blue {
+  width: 40px;
+  margin-right: 8px;
+  border: 1px solid #1e90ff;
+  display: inline-block;
+}
+
+.gray {
+  width: 40px;
+  margin-right: 8px;
+  border: 1px solid #e8e8e8;
+  display: inline-block;
+}
+
+.laguge-skill {
+  margin-bottom: 24px;
+}
+
+/*----------------- css certificate ---------*/
+.pb-xl-4 {
+  border-bottom: 2px solid #d6c08d;
+}
+
+.certificate-business li {
+  color: #888888;
+  list-style: none;
+}
+
+.certificate-business li:first-child {
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* -----------------css project----------- */
+.section-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  color: #888888;
+}
+.cv-project {
+  border: 1px solid #e8e8e8;
+}
+
+.project-block-1 {
+  text-transform: uppercase;
+  padding: 12px 0 12px 18px;
+  border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+}
+
+.project-block-2 {
+  display: flex;
+  padding: 8px 0 8px 18px;
+  border-bottom: 1px solid #e8e8e8;
+  color: #888888;
+}
+
+.project-block-2 i {
+  margin-right: 10px;
+}
+
+.project-block-2 p:first-child {
+  color: #fff;
+  padding: 5px 12px;
+  background: #1e90ff;
+  border-radius: 16px;
+}
+
+.block {
+  display: none;
+}
+
+.project-block-3 div {
+  display: grid;
+  grid-template-columns: 1fr 3.8fr;
+  gap: 10px;
+  padding: 12px 8px;
+  color: #888888;
+}
+
+/*-------------------------- css footer-------------- */
+
+#footer ul {
+  text-align: center;
+}
+
+#footer li {
+  color: #888888;
+  list-style: none;
+  display: inline-block;
+  margin-right: 28px;
+}
+
+#footer i {
+  color: #1e90ff;
+  margin-right: 6px;
+  font-size: 28px;
+  position: relative;
+  top: 4px;
+}
+
+/* -----------------------responsive laptop------------- */
+@media (min-width: 1200px) {
+  /* nav */
+  .col-xl-2 {
+    width: 128px;
+  }
+
+  .col-xl-3 {
+    width: 280px;
+    position: relative;
+    z-index: 1;
+  }
+  .container {
+    width: 1140px;
+  }
+  #target {
+    padding-left: 50px;
+  }
+  /*----------------------------------- ABOUT -----------*/
+  #target,
+  #personal-info,
+  .certificate,
+  #project {
+    padding: 50px 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* job-cv */
+  /* --------------------------------certificate-------*/
+
+  .border_left {
+    border-left: 2px solid #d6c08d;
+  }
+}

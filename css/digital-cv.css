@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.1rem;
+}
+p {
+  margin-bottom: 0;
+}
+.container {
+  padding: 20px;
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.6rem;
+  padding-top: 16px;
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 8px;
+}
+
+.section-container {
+  display: grid;
+  gap: 16px;
+}
+
+/* ---------team------------ */
+.boder_circle {
+  background-color: #6f42c1;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid #70380f;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 44.5px;
+  color: #fff;
+}
+/* ----------------css goals-------------- */
+
+.boder_bt {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+/* ---------------Timeline------------------ */
+.boder_bt_ {
+  border-bottom: 1px dashed #00bfff;
+}
+
+i {
+  font-size: 22px;
+}
+/* ----------------laptop--------------- */
+@media (min-width: 1200px) {
+  .section-container {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  #time-line {
+    grid-area: 1/3/3/4;
+  }
+}
+/* ----------------Lablet--------------- */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container-md {
+    width: 100%;
+  }
+
+  .section-container {
+    grid-template-columns: 1fr;
+  }
+
+  #team {
+    grid-row: 3/4;
+  }
+  #time-line {
+    grid-row: 5/6;
+  }
+  #scopes {
+    grid-row: 2/3;
+  }
+  #primary {
+    grid-row: 4/5;
+  }
+}
+/* ----------------mobile--------------- */
+@media (max-width: 767px) {
+  .section-container {
+    grid-template-columns: 1fr;
+  }
+  #team {
+    grid-row: 3/4;
+  }
+  #time-line {
+    grid-row: 5/6;
+  }
+  #scopes {
+    grid-row: 2/3;
+  }
+  #primary {
+    grid-row: 4/5;
+  }
+}
